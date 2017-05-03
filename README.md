@@ -18,9 +18,11 @@ While this version only uses ```PHP``` to do verifications, there is no need to 
 
 Basically this version uses the same file responsible for checking the technologies used in the website, the name of this file is called ```apps.json```
 
-# Always keep ```apps.json``` file updated
+# Always keep ```apps.json``` file updated (and icons too)
 
-New technologies are often released every day, so if you want to continue using this code to check which technologies are used on certain websites, I recommend that you constantly update the ```apps.json``` file. You can find it in this [link](https://github.com/AliasIO/Wappalyzer/blob/master/src/apps.json).
+New technologies are often released every day, so if you want to continue using this code to check which technologies are used on certain websites, I recommend that you constantly update the ```apps.json``` file. You can find it [in this link](https://github.com/AliasIO/Wappalyzer/blob/master/src/apps.json).
+
+Do not forget to update the icons as well, they can be found [in this link](https://github.com/AliasIO/Wappalyzer/tree/master/src/icons)
 
 # How to use this code ?
 
