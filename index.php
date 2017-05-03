@@ -4,6 +4,6 @@ include ('Wappalyzer.php');
 
 $wpp = new Wappalyzer();
 
-$allTecnologies = $wpp->returnTecnologiesFromWebsite('https://duckyo.com');
+$allTecnologies = $wpp->returnTecnologiesFromWebsite('https://google.com');
 
 var_dump($allTecnologies);
