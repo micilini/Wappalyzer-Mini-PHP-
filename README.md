@@ -10,6 +10,8 @@ technologies used on websites. It detects
 [analytics tools](https://wappalyzer.com/categories/analytics) and
 [many more](https://wappalyzer.com/applications).
 
+*Licensed under the [GPL](https://github.com/AliasIO/Wappalyzer/blob/master/LICENSE).*
+
 ## Why is called Wappalyzer Mini ?
 
 The difference is that the original version of wappalyzer, uses some more technologies like: ```NodeJS```, ```V8JS``` ... and many others to check the technologies used in a particular website.
