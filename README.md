@@ -10,7 +10,7 @@ technologies used on websites. It detects
 [analytics tools](https://wappalyzer.com/categories/analytics) and
 [many more](https://wappalyzer.com/applications).
 
-# Why is called Wappalyzer Mini ?
+## Why is called Wappalyzer Mini ?
 
 The difference is that the original version of wappalyzer, uses some more technologies like: ```NodeJS```, ```V8JS``` ... and many others to check the technologies used in a particular website.
 
@@ -18,13 +18,13 @@ While this version only uses ```PHP``` to do verifications, there is no need to 
 
 Basically this version uses the same file responsible for checking the technologies used in the website, the name of this file is called ```apps.json```
 
-# Always keep ```apps.json``` file updated (and icons too)
+## Always keep ```apps.json``` file updated (icons too)
 
 New technologies are often released every day, so if you want to continue using this code to check which technologies are used on certain websites, I recommend that you constantly update the ```apps.json``` file. You can find it [in this link](https://github.com/AliasIO/Wappalyzer/blob/master/src/apps.json).
 
 Do not forget to update the icons as well, they can be found [in this link](https://github.com/AliasIO/Wappalyzer/tree/master/src/icons)
 
-# How to use this code ?
+## How to use this code ?
 
 The first thing you should have are the 2 files called ```Wappalyzer.php``` (That represents the class that download website contents and search for technologies) and ```apps.json``` (The json file that have some instructions to recognize the technologies).
 
@@ -37,7 +37,7 @@ $allTecnologies = $wpp->returnTecnologiesFromWebsite('https://google.com');
 var_dump($allTecnologies);
 ```
 
-# Where can I change the path of the ```apps.json``` file ?
+## Where can I change the path of the ```apps.json``` file ?
 
 In this version you can change the path of the file inside the ```Wappalizer``` class.
 
